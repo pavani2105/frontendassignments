@@ -1,0 +1,46 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Visibility and Display Types</title>  
+    <style>  
+        .visible {  
+            visibility: visible; 
+        }  
+        .hidden {  
+            visibility: hidden; 
+        }  
+        .collapse {  
+            visibility: collapse; 
+        }  
+        .dn {  
+            display: none; 
+        }  
+        .inline {  
+            display: inline; }
+        .block {  
+            display: block; 
+        }  
+        .contents {  
+            display: contents; 
+        }  
+        .list-item {  
+            display: list-item; 
+        }  
+    </style>  
+</head>  
+<body>  
+    <div>  
+        <p class="visible">This is a visible paragraph.</p>  
+        <p class="hidden">This paragraph is hidden but takes space.</p>  
+        <p class="collapse" style="visibility: collapse;">This collapses if inside a table.</p>  
+
+        <div class="dn">This is a display none element.</div>  
+        <span class="inline">This is an inline span.</span>  
+        <div class="block">This is a block element.</div>  
+        <div class="contents">Content with <span>content inside</span>.</div>  
+        <div class="list-item">List item styled div.</div>  
+    </div>  
+</body>  
+</html>  
